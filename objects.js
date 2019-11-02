@@ -13,5 +13,5 @@ function removeFromPlaylist(playlist, artistName) {
   return playlist
 }
 
-removeFromPlaylist(playlist, 'Alison')
+removeFromPlaylist(playlist, 'Slowdive')
 
