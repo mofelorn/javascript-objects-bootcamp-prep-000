@@ -11,7 +11,7 @@ updatePlaylist(playlist, 'Phil Ochs', "Here's to the State of Mississippi")
 playlist
 
 function removeFromPlaylist(playlist, artistName) {
-  delete playlist.artistName
+  delete playlist[artistName]
   return playlist
 }
 
