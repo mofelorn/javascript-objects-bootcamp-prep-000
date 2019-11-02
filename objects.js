@@ -4,10 +4,8 @@ function updatePlaylist(playlist, artistName, songTitle) {
   return playlist[artistName] = 'songTitle'
 }
 
-updatePlaylist(playlist, 'Alison')
-
-playlist['Slowdive'] = 'Alison'
-playlist['My Bloody Valentine'] = 'Sometimes'
+updatePlaylist(playlist, 'Alison', 'Slowdive')
+updatePlaylist(playlist, 'Sometimes', 'My Bloody Valentine')
 
 function removeFromPlaylist(playlist, artistName) {
   delete playlist.artistName
