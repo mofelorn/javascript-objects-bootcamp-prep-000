@@ -5,6 +5,7 @@ function updatePlaylist(playlist, artistName, songTitle) {
 }
 
 updatePlaylist(playlist, 'Alison')
+
 playlist['Slowdive'] = 'Alison'
 playlist['My Bloody Valentine'] = 'Sometimes'
 
